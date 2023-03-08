@@ -70,27 +70,4 @@ spring.datasource.password=<sua_senha>
   <li><code>DELETE /alunos/{id}</code>: Remove um aluno específico.</li>
 </ul>
 
-<h2>Formato dos dados</h2>
 
-<p>Abaixo está o formato dos dados que devem ser enviados nos endpoints <code>POST</code> e <code>PUT</code>:</p>
-
-<pre>
-<p>A aplicação irá subir na porta 8080 por padrão. Para acessar o Swagger e testar os endpoints, basta acessar o seguinte endereço: <code>http://localhost:8080/swagger-ui.html</code></p>
-
-<h2>Endpoints disponíveis</h2>
-
-<p>Abaixo estão listados os endpoints disponíveis na aplicação:</p>
-
-<ul>
-  <li><code>GET /alunos</code>: Retorna uma lista de todos os alunos cadastrados.</li>
-  <li><code>GET /alunos/{id}</code>: Retorna os detalhes de um aluno específico.</li>
-  <li><code>POST /alunos</code>: Cria um novo aluno.</li>
-  <li><code>PUT /alunos/{id}</code>: Atualiza os dados de um aluno específico.</li>
-  <li><code>DELETE /alunos/{id}</code>: Remove um aluno específico.</li>
-</ul>
-
-<h2>Formato dos dados</h2>
-
-<p>Abaixo está o formato dos dados que devem ser enviados nos endpoints <code>POST</code> e <code>PUT</code>:</p>
-
-<pre>
